@@ -3,6 +3,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
+    "lint:semicolon": "eslint . --ext .ts,.tsx",
     "start": "next start"
   },
   "dependencies": {
@@ -26,7 +27,10 @@
     "@types/bcrypt": "^5.0.2",
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
-    "@types/react-dom": "19.0.3"
+    "@types/react-dom": "19.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.57.0",
+    "@typescript-eslint/parser": "^8.57.0",
+    "eslint": "^10.0.3"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
