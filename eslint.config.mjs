@@ -6,6 +6,7 @@ export default defineConfig([
   {
     files: ['**/*.{ts,tsx}'],
     rules: {
+      'comma-dangle': ['error', 'always-multiline'],
       semi: ['error', 'always'],
     },
   },
